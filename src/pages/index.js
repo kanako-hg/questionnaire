@@ -3,7 +3,7 @@ import Container from "@material-ui/core/Container";
 import Input from "@material-ui/core/Input";
 import { useState } from "react";
 import { addDoc, collection } from "firebase/firestore";
-import { db } from "@/ config/firebase";
+import { db } from "@/config/firebase";
 
 export default function Home() {
   // const [q3Value, setQ3Value] = useState();
